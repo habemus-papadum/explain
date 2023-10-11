@@ -5,6 +5,9 @@ on:
     types: [published]
     branches: [main]
 
+permissions:
+  pages: write
+
 jobs:
   
   publish:
